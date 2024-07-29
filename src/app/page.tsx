@@ -13,7 +13,7 @@ export default function Home() {
   useEffect(() => {}, []);
 
   return (
-    <main className="container flex min-h-screen flex-col items-center justify-between p-10">
+    <main className="container flex min-h-screen flex-col items-center justify-center p-10">
       <div className="absolute top-5 right-5">
         <ModeToggle />
       </div>
